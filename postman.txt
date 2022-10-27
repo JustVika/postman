@@ -1,0 +1,53 @@
+Request
+https://blog.kata.academy/api/users
+
+{
+  "user": {
+    "username": "KolosovaViktoria",
+    "email": "justvika248@gmail.com",
+    "password": "Vika12345"
+  }
+}
+
+Response
+
+{
+    "user": {
+        "username": "kolosovaviktoria",
+        "email": "justvika248@gmail.com",
+        "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzNWEzMGQyM2NmNzA1MWIwMDgyYjYyNSIsInVzZXJuYW1lIjoia29sb3NvdmF2aWt0b3JpYSIsImV4cCI6MTY3MjAzOTEyMywiaWF0IjoxNjY2ODU1MTIzfQ.bsNIcpGDeCUm8AnBm1VTamtz4OgCJ82F8IUDfD3FL4c"
+    }
+}
+
+Request
+https://blog.kata.academy/api/users/login
+{
+  "user": {
+    "email": "justvika248@gmail.com",
+    "password": "Vika12345"
+  }
+}
+Response
+{
+    "user": {
+        "username": "kolosovaviktoria",
+        "email": "justvika248@gmail.com",
+        "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzNWEzMGQyM2NmNzA1MWIwMDgyYjYyNSIsInVzZXJuYW1lIjoia29sb3NvdmF2aWt0b3JpYSIsImV4cCI6MTY3MjAzOTQxNSwiaWF0IjoxNjY2ODU1NDE1fQ.YsUtifTIIKZ8WZXtO-OP7hkcU2z43AmVPy2leX7O_38"
+    }
+}
+
+Request
+https://blog.kata.academy/api/user
+Authorization Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzNWEzMGQyM2NmNzA1MWIwMDgyYjYyNSIsInVzZXJuYW1lIjoia29sb3NvdmF2aWt0b3JpYSIsImV4cCI6MTY3MjA0MDgwNywiaWF0IjoxNjY2ODU2ODA3fQ.XSwEX27JBQWd31Wu7AIWSjcbeqUf5PY1_BAxx556lzU
+
+Response
+{
+    "user": {
+        "username": "kolosovaviktoria",
+        "email": "justvika248@gmail.com",
+        "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzNWEzMGQyM2NmNzA1MWIwMDgyYjYyNSIsInVzZXJuYW1lIjoia29sb3NvdmF2aWt0b3JpYSIsImV4cCI6MTY3MjA0MTA4MCwiaWF0IjoxNjY2ODU3MDgwfQ.EvHcbDN4GZqvQMh8kzZow-IhGv-tffr396OvtnTwvJ4"
+    }
+}
+
+
+
